@@ -1,0 +1,69 @@
+.modal {
+  background-color: rgb(27, 27, 27);
+  color: rgba(255, 141, 160, 0.973);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 5rem;
+  position: absolute;
+  top: 20vh;
+  left: calc(50% - 15rem);
+  z-index: 2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.para {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+
+.button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  margin: 1rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 141, 160, 0.973);
+  border-radius: 50px;
+  border-style: none;
+}
+
+.button:hover {
+  background: rgb(255, 210, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 141, 160, 0.973) 9%,
+    rgb(170, 0, 71) 100%
+  );
+}
+
+.para2 {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.a {
+  color: rgba(255, 141, 160, 0.973);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a:hover {
+  color: rgb(255, 14, 114);
+  font-weight: none;
+}
+
+.a:visited {
+  color: rgb(170, 0, 71);
+}

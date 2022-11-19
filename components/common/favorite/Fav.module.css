@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+  margin-left: 3rem;
+}
+
+.icon {
+  height: 4%;
+  width: 4%;
+  color: rgba(255, 141, 160, 0.973);
+  cursor: pointer;
+}
+
+.h1 {
+  color: rgba(255, 141, 160, 0.973);
+  font-size: 4rem;
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: 200;
+  text-align: left;
+  letter-spacing: 0.5rem;
+}
+
+.bg {
+  padding-top: 8rem;
+  padding-left: 3rem;
+  padding-bottom: 8rem;
+  background-image: url("./bg.jpg");
+}
+
+.title {
+  margin-top: 4rem;
+  color: rgba(255, 141, 160, 0.973);
+  font-size: 1rem;
+}
+
+.t {
+  margin-left: 15rem;
+}

@@ -1,0 +1,84 @@
+.discover {
+  background-image: url("../images/Background.jpg");
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: 80rem 40rem;
+  display: flex;
+  justify-self: center;
+}
+
+.heading {
+  color: rgba(255, 179, 192, 0.973);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.heading2 {
+  color: rgba(255, 179, 192, 0.973);
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  padding: 10rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 179, 192, 0.973);
+  border-color: rgba(255, 179, 192, 0.973);
+  border-width: 0.1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card {
+  width: 80%;
+  height: 25rem;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  padding-left: 10rem;
+}
+
+.globalflex2 {
+  width: 50rem;
+  padding-top: 2rem;
+}
+
+.card img {
+  width: 80%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.cards button {
+  color: white;
+}
+
+.cards button:hover {
+  background-color: pink;
+  text-decoration: none;
+  transition: none;
+}

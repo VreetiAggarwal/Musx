@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  padding: 2rem;
+  color: rgba(255, 141, 160, 0.973);
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 1rem;
+}
+
+.h1 {
+  font-size: 1.5rem;
+}
+
+.h2 {
+  text-decoration: none;
+}
+
+.h2:active {
+  color: rgba(255, 141, 160, 0.973);
+}
+
+.h2:visited {
+  color: rgba(255, 141, 160, 0.973);
+}
+
+.h2:hover {
+  color: rgba(255, 141, 160, 0.973);
+}
+
+.headerflex {
+  display: flex;
+  align-self: center;
+  gap: 2rem;
+}
